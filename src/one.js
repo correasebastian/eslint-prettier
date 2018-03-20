@@ -1,3 +1,4 @@
+// @ts-nocheck
 function name(params) {
     switch (params) {
         case 'hi':
@@ -26,5 +27,4 @@ function addNumber(number) {
     return number + 1;
 }
 
-// @ts-ignore
 exports.addNumber = addNumber;

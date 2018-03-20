@@ -2,7 +2,7 @@
   "*.js": [
     "eslint --fix",
     "git add",
-    "jest --bail --findRelatedTests"
+    "jest --bail --findRelatedTests --listTests"
   ],
   "*.ts": [
     "tslint --fix",
