@@ -6,7 +6,8 @@
   "scripts": {
     "test": "eslint src/",
     "eslint-check": "eslint --print-config .eslintrc.json | eslint-config-prettier-check",
-    "precommit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged",
+    "fix": "lint-staged"
   },
   "keywords": [],
   "author": "",
