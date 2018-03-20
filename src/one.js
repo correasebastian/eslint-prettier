@@ -25,3 +25,6 @@ var hello = 'world';
 function addNumber(number) {
     return number + 1;
 }
+
+// @ts-ignore
+exports.addNumber = addNumber;
