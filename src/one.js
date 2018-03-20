@@ -1,17 +1,24 @@
-function name    (params) {
-    switch (params) {
-        case 'hi'    :
-        console.log('npm install --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier');
-            break;
-    
-        default:
-            break;
-    }
+function name(params) {
+  switch (params) {
+    case "hi":
+      console.log(
+        "npm install --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier"
+      );
+      break;
+
+    default:
+      break;
+  }
 }
 
-const value = 'hi everyone'.trim().split("\n")[0].toLowerCase();
+const value = "hi everyone"
+  .trim()
+  .split("\n")[0]
+  .toLowerCase();
 
-var hello = "world"
-[1, 2, 3].forEach(addNumber)
+var hello = "world";
+[1, 2, 3].forEach(addNumber);
 
-function addNumber(number) { return number +1  }
+function addNumber(number) {
+  return number + 1;
+}
