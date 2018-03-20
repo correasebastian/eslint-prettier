@@ -1,3 +1,4 @@
+// @ts-nocheck
 const { addNumber } = require('../one');
 
 describe('one', () => {
