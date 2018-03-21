@@ -1,16 +1,18 @@
 // @ts-nocheck
-function name(params) {
+function hiBye(params) {
     switch (params) {
         case 'hi':
             console.log(
                 'npm install cc --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier'
             );
+            return 'hi';
             break;
 
         default:
             console.log(
                 'npm install --save-dev eslint-config-prettier npm install --save-dev esli'
             );
+            return 'bye';
             break;
     }
 }
@@ -28,3 +30,4 @@ function addNumber(number) {
 }
 
 exports.addNumber = addNumber;
+exports.hiBye = hiBye;
