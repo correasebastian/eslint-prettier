@@ -6,8 +6,8 @@
   "scripts": {
     "test": "eslint src/",
     "eslint-check": "eslint --print-config .eslintrc.json | eslint-config-prettier-check",
-    "precommit": "pretty-quick --staged",
-    "fix": "lint-staged"
+    "quick:kix": "pretty-quick --staged",
+    "precommit": "lint-staged"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "eslint": "4.19.0",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-prettier": "2.6.0",
+    "husky": "0.14.3",
     "jest": "22.4.2",
     "lint-staged": "7.0.0",
     "prettier": "1.11.1",
