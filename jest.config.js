@@ -8,6 +8,5 @@ module.exports = {
             lines: 45,
             statements: 45
         }
-    },
-    ignore: ['jest.config.js']
+    }
 };

@@ -20,7 +20,7 @@ const value = 'hi everyone'
     .split('\n')[0]
     .toLowerCase();
 
-var hello = 'world 2';
+var hello = 'world 2 3';
 [1, 2, 3].forEach(addNumber);
 
 function addNumber(number) {
