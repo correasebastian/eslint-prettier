@@ -6,6 +6,7 @@
   "scripts": {
     "test": "eslint src/",
     "eslint-check": "eslint --print-config .eslintrc.json | eslint-config-prettier-check",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json",
     "quick:kix": "pretty-quick --staged",
     "precommit": "lint-staged"
   },
@@ -22,6 +23,7 @@
     "prettier": "1.11.1",
     "pretty-quick": "1.4.1",
     "tslint": "5.9.1",
+    "tslint-config-prettier": "1.10.0",
     "typescript": "2.7.2"
   }
 }
