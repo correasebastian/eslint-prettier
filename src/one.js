@@ -3,7 +3,7 @@ function name(params) {
     switch (params) {
         case 'hi':
             console.log(
-                'npm install --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier'
+                'npm install cc --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier npm install --save-dev eslint-config-prettier'
             );
             break;
 

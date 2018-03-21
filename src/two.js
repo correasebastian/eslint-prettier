@@ -3,4 +3,8 @@ function name(params) {
     console.log(
         'objectobjectobjectobjectobjectobjectobjectobjectobjectobjectobjectobjectobject'
     );
+    return hi;
 }
+
+// @ts-ignore
+exports.hi = name;
